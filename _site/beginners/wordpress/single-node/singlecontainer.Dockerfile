@@ -1,4 +1,4 @@
-FROM ubuntu:trusty-20190515
+FROM ubuntu:rolling
 RUN apt-get update && apt-get -y install \
                       apache2 \
                       php5 \
