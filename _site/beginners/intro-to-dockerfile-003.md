@@ -56,7 +56,7 @@ $ docker run ajeetraina/wc
 ### Example:1
 
 ```docker
-FROM ubuntu:trusty-20190515
+FROM ubuntu:rolling
 CMD ["/bin/echo" , "Hi Docker !"]
 ```
 
