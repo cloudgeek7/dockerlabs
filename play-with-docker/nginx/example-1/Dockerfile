@@ -1,6 +1,6 @@
 #Build with Dockerfiles
 
-FROM ubuntu:14.04
+FROM ubuntu:trusty-20190515
 MAINTAINER "Ajeet Raina" <ajeetraina@docker.com>
 RUN apt-get update
 RUN apt-get install -y nginx
