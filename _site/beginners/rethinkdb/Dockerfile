@@ -1,4 +1,4 @@
-FROM debian:bullseye-20230208
+FROM debian:11
 
 MAINTAINER Daniel Alan Miller dalanmiller@rethinkdb.com
 
