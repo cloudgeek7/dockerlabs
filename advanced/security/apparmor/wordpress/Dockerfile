@@ -1,4 +1,4 @@
-FROM php:8.0-fpm
+FROM php:8.0-zts-buster
 
 RUN apt-get update && apt-get install -y libpng12-dev libjpeg-dev && rm -rf /var/lib/apt/lists/* \
 	&& docker-php-ext-configure gd --with-png-dir=/usr --with-jpeg-dir=/usr \
