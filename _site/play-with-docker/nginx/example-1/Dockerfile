@@ -1,6 +1,6 @@
 #Build with Dockerfiles
 
-FROM ubuntu:14.04
+FROM ubuntu:rolling
 MAINTAINER "Ajeet Raina" <ajeetraina@docker.com>
 RUN apt-get update
 RUN apt-get install -y nginx
