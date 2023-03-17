@@ -15,12 +15,12 @@
     "webpack-dev-server": "^2.3.0"
   },
   "dependencies": {
-    "bootstrap-sass": "^3.3.6",
+    "bootstrap-sass": "^3.4.0",
     "compression-webpack-plugin": "^0.3.2",
     "jquery": "^3.5.0",
     "jquery-ujs": "^1.2.1",
     "stats-webpack-plugin": "^0.4.3",
-    "webpack": "^2.2.1"
+    "webpack": "^4.0.0"
   },
   "babel": {
     "presets": [
