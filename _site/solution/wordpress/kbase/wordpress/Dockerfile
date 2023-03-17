@@ -1,5 +1,5 @@
 
-FROM wordpress:latest
+FROM wordpress:6.1-php8.2-fpm
 MAINTAINER Ajeet S Raina
 RUN apt-get update -y
 RUN apt install -y wget unzip
