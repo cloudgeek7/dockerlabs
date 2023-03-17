@@ -1,0 +1,27 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - webpack > micromatch > snapdragon > debug:
+        patched: '2023-03-01T17:30:22.049Z'
+    - webpack > micromatch > braces > snapdragon > debug:
+        patched: '2023-03-01T17:30:22.049Z'
+    - webpack > micromatch > extglob > snapdragon > debug:
+        patched: '2023-03-01T17:30:22.049Z'
+    - webpack > micromatch > nanomatch > snapdragon > debug:
+        patched: '2023-03-01T17:30:22.049Z'
+    - webpack > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2023-03-01T17:30:22.049Z'
+  'npm:ms:20170412':
+    - webpack > micromatch > snapdragon > debug > ms:
+        patched: '2023-03-01T17:30:22.049Z'
+    - webpack > micromatch > braces > snapdragon > debug > ms:
+        patched: '2023-03-01T17:30:22.049Z'
+    - webpack > micromatch > extglob > snapdragon > debug > ms:
+        patched: '2023-03-01T17:30:22.049Z'
+    - webpack > micromatch > nanomatch > snapdragon > debug > ms:
+        patched: '2023-03-01T17:30:22.049Z'
+    - webpack > micromatch > extglob > expand-brackets > snapdragon > debug > ms:
+        patched: '2023-03-01T17:30:22.049Z'
