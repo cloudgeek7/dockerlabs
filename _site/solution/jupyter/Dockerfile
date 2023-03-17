@@ -1,5 +1,5 @@
 # reference: https://hub.docker.com/_/ubuntu/
-FROM ubuntu:16.04
+FROM ubuntu:rolling
 # Adds metadata to the image as a key value pair example LABEL version="1.0"
 LABEL maintainer="Your Name <some_email@domain.com>"
 # Set environment variables
