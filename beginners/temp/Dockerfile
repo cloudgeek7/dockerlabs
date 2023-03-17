@@ -98,7 +98,7 @@ Run echo 'export PATH=/root/bin/az:$PATH' >>~/.profile
 Run export PATH=$PATH:/root/bin
 
 #Install Azure COPY 
-FROM microsoft/dotnet:2.1-runtime
+FROM microsoft/dotnet:2.1-aspnetcore-runtime-bionic
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
