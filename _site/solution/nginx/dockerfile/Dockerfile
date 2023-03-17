@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:rolling
 
 LABEL MAINTAINER ajeetraina@gmail.com
 
