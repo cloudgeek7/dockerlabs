@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:latest
+FROM tensorflow/tensorflow:2.12.0rc1
 RUN apt-get update
 RUN apt-get install python-opencv -y
 ENV APP_HOME /app

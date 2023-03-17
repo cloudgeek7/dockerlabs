@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian:11
 
 MAINTAINER Daniel Alan Miller dalanmiller@rethinkdb.com
 
