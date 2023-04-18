@@ -37,7 +37,7 @@ Setting up a Docker image with a build argument and ENV variable:
 
 ```
 $ cat Dockerfile
-FROM ubuntu:latest
+FROM ubuntu:22.10
 ARG version
 ENV version $version
 
