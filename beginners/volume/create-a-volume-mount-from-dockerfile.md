@@ -49,7 +49,7 @@ In both cases, `/uploads` (inside the container) will be a volume.
 Create a file with name volume and paste the following content to it:
 
 ```
-FROM ubuntu:latest
+FROM ubuntu:22.10
 RUN mkdir /data
 WORKDIR /data
 RUN echo "Hello from Volume" > test
