@@ -4,5 +4,5 @@
 
 # Demonstrating a simple Nginx Application
 
-FROM      ubuntu
+FROM      ubuntu:kinetic
 RUN apt-get update && apt-get install -y inotify-tools nginx apache2 openssh-server
