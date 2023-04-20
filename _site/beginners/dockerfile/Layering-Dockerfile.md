@@ -14,7 +14,7 @@ Let's understand this layering using an example:
 Consider the Dockerfile given below:
 
 ```
-FROM ubuntu:latest
+FROM ubuntu:kinetic
 RUN mkdir -p /hello/hello
 COPY hello.txt /hello/hello
 RUN chmod 600 /hello/hello/hello.txt
