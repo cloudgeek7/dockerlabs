@@ -4,7 +4,7 @@
 
 
 # Pull base image.
-FROM ubuntu:latest
+FROM ubuntu:kinetic
 
 # Install Nginx.
 RUN \
