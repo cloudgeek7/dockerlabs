@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.18.3
 
 LABEL MAINTAINER="Faizan Bashir <faizan.ibn.bashir@gmail.com>"
 
