@@ -1,0 +1,131 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - compression-webpack-plugin > node-zopfli > node-pre-gyp > tar-pack > debug:
+        patched: '2023-08-30T15:44:28.648Z'
+        id: 'npm:debug:20170905'
+        path: >-
+          compression-webpack-plugin > node-zopfli > node-pre-gyp > tar-pack >
+          debug
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2023-08-30T15:44:28.648Z'
+        id: 'npm:debug:20170905'
+        path: >-
+          webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack >
+          debug
+  'npm:extend:20180424':
+    - compression-webpack-plugin > node-zopfli > node-pre-gyp > request > extend:
+        patched: '2023-08-30T15:44:28.648Z'
+        id: 'npm:extend:20180424'
+        path: >-
+          compression-webpack-plugin > node-zopfli > node-pre-gyp > request >
+          extend
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2023-08-30T15:44:28.648Z'
+        id: 'npm:extend:20180424'
+        path: >-
+          webpack > watchpack > chokidar > fsevents > node-pre-gyp > request >
+          extend
+  'npm:hoek:20180212':
+    - compression-webpack-plugin > node-zopfli > node-pre-gyp > request > hawk > hoek:
+        patched: '2023-08-30T15:44:28.648Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          compression-webpack-plugin > node-zopfli > node-pre-gyp > request >
+          hawk > hoek
+    - compression-webpack-plugin > node-zopfli > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2023-08-30T15:44:28.648Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          compression-webpack-plugin > node-zopfli > node-pre-gyp > request >
+          hawk > boom > hoek
+    - compression-webpack-plugin > node-zopfli > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2023-08-30T15:44:28.648Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          compression-webpack-plugin > node-zopfli > node-pre-gyp > request >
+          hawk > sntp > hoek
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2023-08-30T15:44:28.648Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          webpack > watchpack > chokidar > fsevents > node-pre-gyp > request >
+          hawk > hoek
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2023-08-30T15:44:28.648Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          webpack > watchpack > chokidar > fsevents > node-pre-gyp > request >
+          hawk > boom > hoek
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2023-08-30T15:44:28.648Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          webpack > watchpack > chokidar > fsevents > node-pre-gyp > request >
+          hawk > sntp > hoek
+  'npm:ms:20170412':
+    - compression-webpack-plugin > node-zopfli > node-pre-gyp > tar-pack > debug > ms:
+        patched: '2023-08-30T15:44:28.648Z'
+        id: 'npm:ms:20170412'
+        path: >-
+          compression-webpack-plugin > node-zopfli > node-pre-gyp > tar-pack >
+          debug > ms
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack > debug > ms:
+        patched: '2023-08-30T15:44:28.648Z'
+        id: 'npm:ms:20170412'
+        path: >-
+          webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack >
+          debug > ms
+  'npm:qs:20170213':
+    - compression-webpack-plugin > node-zopfli > node-pre-gyp > request > qs:
+        patched: '2023-08-30T15:44:28.648Z'
+        id: 'npm:qs:20170213'
+        path: compression-webpack-plugin > node-zopfli > node-pre-gyp > request > qs
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > qs:
+        patched: '2023-08-30T15:44:28.648Z'
+        id: 'npm:qs:20170213'
+        path: >-
+          webpack > watchpack > chokidar > fsevents > node-pre-gyp > request >
+          qs
+  'npm:stringstream:20180511':
+    - compression-webpack-plugin > node-zopfli > node-pre-gyp > request > stringstream:
+        patched: '2023-08-30T15:44:28.648Z'
+        id: 'npm:stringstream:20180511'
+        path: >-
+          compression-webpack-plugin > node-zopfli > node-pre-gyp > request >
+          stringstream
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2023-08-30T15:44:28.648Z'
+        id: 'npm:stringstream:20180511'
+        path: >-
+          webpack > watchpack > chokidar > fsevents > node-pre-gyp > request >
+          stringstream
+  'npm:tough-cookie:20170905':
+    - compression-webpack-plugin > node-zopfli > node-pre-gyp > request > tough-cookie:
+        patched: '2023-08-30T15:44:28.648Z'
+        id: 'npm:tough-cookie:20170905'
+        path: >-
+          compression-webpack-plugin > node-zopfli > node-pre-gyp > request >
+          tough-cookie
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2023-08-30T15:44:28.648Z'
+        id: 'npm:tough-cookie:20170905'
+        path: >-
+          webpack > watchpack > chokidar > fsevents > node-pre-gyp > request >
+          tough-cookie
+  'npm:tunnel-agent:20170305':
+    - compression-webpack-plugin > node-zopfli > node-pre-gyp > request > tunnel-agent:
+        patched: '2023-08-30T15:44:28.648Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: >-
+          compression-webpack-plugin > node-zopfli > node-pre-gyp > request >
+          tunnel-agent
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > tunnel-agent:
+        patched: '2023-08-30T15:44:28.648Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: >-
+          webpack > watchpack > chokidar > fsevents > node-pre-gyp > request >
+          tunnel-agent
