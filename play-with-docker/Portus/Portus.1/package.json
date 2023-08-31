@@ -2,7 +2,9 @@
   "private": true,
   "scripts": {
     "eslint": "eslint --max-warnings 0 --ext .js .",
-    "webpack": "webpack --watch --config config/webpack.js"
+    "webpack": "webpack --watch --config config/webpack.js",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "devDependencies": {
     "babel-core": "^6.23.0",
@@ -20,11 +22,13 @@
     "jquery": "^3.5.0",
     "jquery-ujs": "^1.2.1",
     "stats-webpack-plugin": "^0.4.3",
-    "webpack": "^2.2.1"
+    "webpack": "^2.2.1",
+    "@snyk/protect": "latest"
   },
   "babel": {
     "presets": [
       "es2015"
     ]
-  }
+  },
+  "snyk": true
 }
